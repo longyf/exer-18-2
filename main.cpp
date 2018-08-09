@@ -7,8 +7,8 @@ using namespace std;
 void test1() {
 	cout<<"Test1()"<<endl;
 	ListNode *p1 = new ListNode(1);
-	ListNode *p2 = new ListNode(11);
-	ListNode *p3 = new ListNode(12);
+	ListNode *p2 = new ListNode(1);
+	ListNode *p3 = new ListNode(1);
 	ListNode *p4 = new ListNode(2);
 	ListNode *p5 = new ListNode(3);
 	ListNode *p6 = new ListNode(4);
@@ -59,10 +59,10 @@ void test3() {
 void test4() {
 	cout<<"Test4()"<<endl;
 	ListNode *p1 = new ListNode(1);
-	ListNode *p2 = new ListNode(3);
-	ListNode *p3 = new ListNode(2);
-	ListNode *p4 = new ListNode(2);
-	ListNode *p5 = new ListNode(5);
+	ListNode *p2 = new ListNode(1);
+	ListNode *p3 = new ListNode(1);
+	ListNode *p4 = new ListNode(1);
+	ListNode *p5 = new ListNode(1);
 	p1->next = p2;
 	p2->next = p3;
 	p3->next = p4;
@@ -87,10 +87,10 @@ void test5() {
 }
 
 int main() {
-//	test1();
-//	test2();
-//	test3();
+	test1();
+	test2();
+	test3();
 	test4();
-//	test5();
+	test5();
 	return 0;
 }
